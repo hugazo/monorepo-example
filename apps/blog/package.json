@@ -1,4 +1,5 @@
 {
+  "name": "blog-example",
   "private": true,
   "scripts": {
     "build": "nuxt build",
