@@ -14,6 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <p class="mytext">Hello!</p>
 </template>
 
 <style scoped>
@@ -27,5 +28,9 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+
+.mytext {
+  @apply font-bold w-100 text-green-900;
 }
 </style>
